@@ -1,6 +1,7 @@
 # Language Text-Based Translator App
 
-![App Demo](demo.gif)
+![Alt text](image.png)
+
 
 The Language Text-Based Translator App is a user-friendly application that allows users to translate text between various languages seamlessly. It employs automatic language detection to determine the input text's language and provides a range of 98 language options for translation.
 
