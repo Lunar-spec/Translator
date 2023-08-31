@@ -1,0 +1,30 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #eee;
+  background-color: #232323;
+}
+
+
+body {
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 0.2rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.25s ease-out;
+}
+button:hover {
+  border-color: #19a7ce;
+}

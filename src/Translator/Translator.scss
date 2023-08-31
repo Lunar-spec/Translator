@@ -1,0 +1,100 @@
+.mainContainer {
+    height: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 0.1rem solid transparent;
+    background: #333;
+    transition: .3s ease-out;
+
+    &:hover {
+        border: 0.1rem solid #19a7ce;
+    }
+
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 0.25rem;
+        color: #19a7ce;
+    }
+
+    select {
+        width: 50%;
+        padding: 0.5rem;
+        font-family: 'Poppins', sans-serif;
+        outline: none;
+        border: none;
+        border-radius: 0.2rem;
+        background: #444;
+        color: #fff;
+    }
+
+    textarea {
+        outline: none;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        background: #444;
+        color: inherit;
+        height: 5rem;
+        border: 0.1rem solid transparent;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 0.2rem;
+
+        &:focus-visible {
+            border: 0.1rem solid #19a7ce;
+        }
+    }
+
+    .button {
+        margin-top: 1rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        padding: 1rem;
+
+        .submitBtn {
+            background: #19a7ce;
+            outline: none;
+            border: 0.1rem solid transparent;
+            letter-spacing: 0.1rem;
+
+            &:hover {
+                border: 0.1rem solid #10667d;
+            }
+        }
+
+        .clearBtn {
+            background: #19a7ce;
+            outline: none;
+            border: 0.1rem solid transparent;
+            letter-spacing: 0.1rem;
+
+            &:hover {
+                border: 0.1rem solid #10667d;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mainContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+
+            textarea {
+                height: 75%;
+                width: 80%;
+                font-size: 1rem;
+            }
+        }
+    }
+}
