@@ -1,6 +1,8 @@
 # Language Text-Based Translator App
 
-![Alt text](image.png)
+![image](https://github.com/Lunar-spec/Translator/assets/63588348/0fcb681e-8b8f-4169-8655-797f24887196)
+![image](https://github.com/Lunar-spec/Translator/assets/63588348/65511139-b4ec-4670-a99a-7fccf6a19ada)
+
 
 
 The Language Text-Based Translator App is a user-friendly application that allows users to translate text between various languages seamlessly. It employs automatic language detection to determine the input text's language and provides a range of 98 language options for translation.
